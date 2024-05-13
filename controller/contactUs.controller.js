@@ -1,4 +1,4 @@
-import contactUsModel from "../models/contactUs.model.js";
+import contactUsModel from "../models/contactus.model.js";
 import nodemailer from 'nodemailer';
 
 
