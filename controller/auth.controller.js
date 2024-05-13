@@ -7,6 +7,7 @@ const authController = {
         try {
             const { firstName, lastName, email, password } = req.body;
 
+            console.log(req.body);
             //validation
             if (!firstName || !lastName || !email || !password) {
                 return res.status(400).json({ error: "Please provide all required information: firstName, lastName, email, and password." });
