@@ -1,7 +1,5 @@
-import contactUsModel from "../models/contactus.model.js";
+import contactUsModel from "../models/contactUs.model.js";
 import nodemailer from 'nodemailer';
-
-
 
 const contactUsController = {
     sendMessage: async (req, res) => {
@@ -67,4 +65,7 @@ const contactUsController = {
         }
     }
 }
+
+
+
 export default contactUsController;
